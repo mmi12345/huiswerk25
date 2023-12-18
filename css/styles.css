@@ -72,13 +72,6 @@ button {
   border-radius: 5px;
   color: green;
   background-color: #fff;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-
-/* Stijl voor Knoppen */
-
-button {
   margin-top: 10px;
   margin-bottom: 15px;
 }
