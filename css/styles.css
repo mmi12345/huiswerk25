@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 1em;
+
+
+}
+
+/* Stijl voor de Header */
+header {
+  width: 100%;
+  background-color: #133337;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Stijl voor de Hoofdinhoud */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+/* Stijl voor de Secties */
+section {
+  flex: 1;
+  min-width: 300px;
+  min-height: 400px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+section h2 {
+  text-align: left;
+}
+
+/* Stijl voor Afbeeld met ID #jquery */
+#jquery {
+  display: block;
+  margin: 0 auto;
+  width: 38%;
+  height: auto;
+}
+
+/* Stijl voor Paragrafen en Koppen */
+p,
+h1,
+h2 {
+  padding: 15px;
+}
+
+/* Stijl voor de Knoppen */
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid green;
+  border-radius: 5px;
+  color: green;
+  background-color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* Stijl voor Knoppen */
+
+button {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+/* Stijl voor de Footer */
+footer {
+  width: 100%;
+  background-color: #133337;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Responsive Font Sizes with Media Queries */
+/* Mobile View */
+@media screen and (max-width: 576px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1,
+  h2,
+  p {
+    font-size: 0.9em;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+/* Tablet View */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  body {
+    font-size: 1.8vw;
+  }
+
+  h1,
+  h2,
+  p {
+    font-size: 1.2em;
+  }
+
+  button {
+    width: 80%;
+  }
+}
+
+/* Small Desktop View */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    font-size: 1.8vw;
+  }
+
+  h1,
+  h2,
+  p {
+    font-size: 1.4em;
+  }
+
+  button {
+    width: 60%;
+  }
+}
+
+/* Medium Desktop View */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  body {
+    font-size: 1.7vw;
+  }
+
+  h1,
+  h2,
+  p {
+    font-size: 1.4em;
+  }
+}
+
+/* Large Desktop View */
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 1.5vw;
+  }
+
+  h1,
+  h2,
+  p {
+    font-size: 1.1em;
+  }
+
+}
